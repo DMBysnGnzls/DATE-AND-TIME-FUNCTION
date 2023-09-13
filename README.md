@@ -60,6 +60,9 @@
 =NOW()<br>
 =TODAY()<br>
 
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/f1c41a4f-eef3-4568-b249-b1588d5f534c)
+
+
 # EXTRACTING THE COMPONENTS OF A TIME
 <b>-The functions listed below are grouped into Extracting The Components of a Time category</b><br>
 *HOUR()<br>
@@ -89,6 +92,9 @@ after January 1, 1900.<br>
 -For example, with a time of 9:10:15 AM, second will return 15.<br>
 *Syntax=SECOND(serial_number)
 
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/17181f4e-b596-4718-b97b-6c3102ceaa02)
+
+
 # Extracting The Components of a Date
 <b>-The functions listed below are grouped into Extracting The
 Components of a Date category.</b><br>
@@ -114,20 +120,39 @@ date into a cell.</b><br>
 date as a 4 digit number.</b><br>
 *Syntax=YEAR(serial_number)
 
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/370501b2-b50d-4be2-8d94-23e92188c735)
+
+
 # WEEKNUM FUNCTION
 <b>-The Excel WEEKNUM function takes a date and returns a week number (1 54) that corresponds to the week of year.<br>
 -The WEEKNUM function starts counting with the week that contains January 1.<br>
 -By default, weeks begin on Sunday.</b><br>
 *Syntax=WEEKNUM(serial_number)
 
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/da047dcf-f892-4048-94c4-2d2ca483fce6)
+
+
 # WEEKDAY FUNCTION
 <b>-The Excel WEEKDAY function takes a date and returns a number between 1 7 representing the day of week.<br>
 -By default, WEEKDAY returns 1 for Sunday and 7 forSaturday.</b><br>
 *Syntax=WEEKDAY(serial_number)
 
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/ef38abcf-d700-40e6-9bb8-e562f7347ff4)
+
+# EDATE FUNCTION
+<b>-The Excel EDATE function returns a date on the same day of the month, n months in the past or future.<br>
+-You can use EDATE to calculate expiration dates, maturity dates, and other due dates.</b><br>
+*Syntax=EDATE(start_date,months)
+
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/105ce4ae-c99f-4c8e-a50d-a3d6cc7e0b4b)
+
+
 # EOMONTH FUNCTION
 <b>-The Excel EOMONTH function returns the last day of the month.</b><br>
-*Syntax=EOMONTH(serial_number)
+*Syntax=EOMONTH(start_date,months)
+
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/c88fb74f-a988-4ecf-8614-21c2080c7a2b)
+
 
 # WORKDAY FUNCTION
 <b>-The Excel WORKDAY function takes a date and returns the nearest working day in the future or past.<br>
@@ -137,6 +162,9 @@ date as a 4 digit number.</b><br>
 start_date - The date from which to start.<br>
 days - The working days before or after start_date<br>
 holidays - [optional] A list dates that should be considered non working days.</b><br>
+
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/2289d229-e603-497e-876f-6b0e394f4393)
+
 
 # WORKDAY.INTL FUNCTION
 <b>-The Excel WORKDAY.INTL function takes a date and returns the nearest working in the future or past, based on an offset value you provide. <br>
@@ -148,21 +176,12 @@ holidays - [optional] A list dates that should be considered non working days.</
 -weekend - [optional] Setting for which days of the week should be considered weekends.<br>
 -holidays - [optional] A list of one or more dates that should be considered non working days.</b><br>
 
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/4b53c710-c45d-4d5e-9e5b-9f91c4400965)
+
+
 # DAYS FUNCTION
 <b>-The Excel DAYS function returns the number of daysbetween two dates.<br>
 -With a start date in A1 and end date in B1, =DAYS(B1,A1) will return the days between the two dates.</b><br>
 *Syntax=DAYS(end_date,start_date)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/DMBysnGnzls/-Practice-of-information-data-and-time-and-lookup-functions/assets/143982031/6d99d4d2-b121-4e7b-91ce-2f71a85642ab)
